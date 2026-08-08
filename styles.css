@@ -1,0 +1,88 @@
+
+.recipeBody{
+    font-family: 'Trebuchet MS';
+}
+
+.HomeDiv{
+    width : 1300px;
+    margin : auto;
+}
+.HeadingDiv{
+    position : sticky;
+    background-color: white;
+    top : 0;
+    z-index : 1;
+
+}
+.PageHeading{
+    text-align: center;
+    font-size : 60px;
+    margin : 30px;
+    font-family : 'Brush Script MT', cursive;
+}
+
+.RecipeBox{
+    display : inline-block;
+    width : 300px;
+    position : relative;
+    border : 2px solid rgb(193, 186, 186);
+    transition: transform 0.2s;
+    box-shadow : 0 5px 15px rgba(0, 0, 0, 0.4);
+    background-color:rgb(242, 233, 233);
+}
+.link-card{
+    display : inline-block;
+    text-decoration: none;
+    margin : 6px;
+}
+.link-card:hover div{
+    box-shadow : 0 5px 15px rgba(0, 0, 0, 0.4);
+    background-color: rgb(242, 233, 233);
+    transform : translateY(-5px);
+}
+.Rating{
+    float : left;
+    margin : 0px 0px 0px 8px; 
+    color : gray;
+
+}
+
+.BoxButton{
+    float : right;
+    padding : 10px 15px ;
+    background-color: rgb(80, 229, 95);
+    border-radius : 8px;
+    font-weight : 600;
+    font-size: 16px;
+    color : white;
+    margin : 0px 7px 4px 0px;
+}
+
+.content{
+    font-size : 19px;
+    font-weight : 600;
+    margin : 7px 4px 7px 6px;;
+    color : black;
+}
+
+.views{
+    float : left;
+    clear : left;
+    margin : 2px 0px 5px 8px; 
+    color : gray;
+}
+
+.InfoColumn, .IngredientsColumn, .StepsColumn{
+    width : 1000px;
+    border : 2px solid rgb(193, 186, 186);
+    margin :0px 0px 10px 100px;
+    background-color:rgb(242, 233, 233);
+    padding : 20px;
+}
+
+
+
+.recipeHeading{
+    margin-left : 100px;
+}
+
